@@ -81,7 +81,7 @@ if ($deny_signup && $allow_invite_signup) {
         tr($tracker_lang['my_birthdate'], "<b>$year$month$day</b>", 1);
         tr($tracker_lang['my_country'], "<select name=\"country\">$countries</select>", 1);
 tr(
-    $tracker_lang['signup_contact'],
+    "Логин в telegram",
     '<img alt="Telegram" src="pic/telegram.png" width="17" height="17" style="vertical-align:middle;margin-right:6px;">' .
     '<input name="telegram" maxlength="64" size="25" ' .
     'placeholder="@username или https://t.me/username" ' .

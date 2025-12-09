@@ -1,5 +1,5 @@
 <?php
-// ad_min/links/_all.php
+// ad_min/links/all.php
 // Единый список ссылок для сетки админки (новый формат: только return [...])
 
 return [

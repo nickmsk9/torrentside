@@ -3,7 +3,7 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-define('LOG_FILE', __DIR__ . '/logs/sitemap.log');
+//define('LOG_FILE', __DIR__ . '/logs/sitemap.log'); - пока что лог нам не нужен
 
 require_once "include/bittorrent.php";
 dbconn(false);
