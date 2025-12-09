@@ -1,5 +1,5 @@
 <?php
-
+//я тестирую работу github
 // Проверка на доступ к админке — если есть 'admin' в URI, логируем попытку
 if (strpos($_SERVER['REQUEST_URI'], 'admin') !== false) {
     require_once 'include/bittorrent.php';
